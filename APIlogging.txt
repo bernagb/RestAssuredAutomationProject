@@ -1,0 +1,130 @@
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer c24570ff18d7e23906f4fe677a513e8640598fe88047e93fc8662784270c2db0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "bookId": 5,
+    "customerName": "Ursula Queen"
+}
+HTTP/1.1 201 Created
+Date: Thu, 06 Jun 2024 15:30:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 50
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"32-453mjvZIGfLc8A5k3JAk9sP2olw"
+
+{
+    "created": true,
+    "orderId": "3xgo_qeNoPsBwU0HX73tp"
+}
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/orders/3xgo_qeNoPsBwU0HX73tp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	orderId=3xgo_qeNoPsBwU0HX73tp
+Headers:		Authorization=Bearer c24570ff18d7e23906f4fe677a513e8640598fe88047e93fc8662784270c2db0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 06 Jun 2024 15:30:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 189
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"bd-fKwnJwTnhnKLSCSwJl/vZQu8bcU"
+
+{
+    "id": "3xgo_qeNoPsBwU0HX73tp",
+    "bookId": 5,
+    "customerName": "Ursula Queen",
+    "createdBy": "3119cd4499fe1bde893f02838a163b5e8fa22438643fc2110093c0945c8be32d",
+    "quantity": 1,
+    "timestamp": 1717687824183
+}
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer c24570ff18d7e23906f4fe677a513e8640598fe88047e93fc8662784270c2db0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "bookId": 5,
+    "customerName": "Lily Dorsay"
+}
+HTTP/1.1 201 Created
+Date: Thu, 06 Jun 2024 15:30:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 50
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"32-GUBnSUwBXwC6OASNy9yxwWiN+s4"
+
+{
+    "created": true,
+    "orderId": "kGkNfmew696r04ggqJWZd"
+}
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/orders/kGkNfmew696r04ggqJWZd
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	orderId=kGkNfmew696r04ggqJWZd
+Headers:		Authorization=Bearer c24570ff18d7e23906f4fe677a513e8640598fe88047e93fc8662784270c2db0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 06 Jun 2024 15:30:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 188
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"bc-wb8gfAHKxp+ZSPOoh3mCTDiebVI"
+
+{
+    "id": "kGkNfmew696r04ggqJWZd",
+    "bookId": 5,
+    "customerName": "Lily Dorsay",
+    "createdBy": "3119cd4499fe1bde893f02838a163b5e8fa22438643fc2110093c0945c8be32d",
+    "quantity": 1,
+    "timestamp": 1717687825501
+}
+Request method:	DELETE
+Request URI:	https://simple-books-api.glitch.me/orders/kGkNfmew696r04ggqJWZd
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	orderId=kGkNfmew696r04ggqJWZd
+Headers:		Authorization=Bearer c24570ff18d7e23906f4fe677a513e8640598fe88047e93fc8662784270c2db0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Thu, 06 Jun 2024 15:30:26 GMT
+Connection: keep-alive
+x-powered-by: Express
