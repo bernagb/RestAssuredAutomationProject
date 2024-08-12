@@ -31,7 +31,7 @@ public class Utils {
 		return req;
 	}
 	public RequestSpecification requestSpecAuth() throws FileNotFoundException {
-		String token = "3ebe0f248e81c30551484ba8e487759b477293df903d96651a3acfd3e4b43e63";
+		String token = "e32efbcbef2f8848eef085ff66ff854030934879554703624b39d13462b07300";
 		if(req2 == null)
 		{
 		
